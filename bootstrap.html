@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea N3</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tu archivo de estilo personalizado (opcional) -->
+    <link rel="stylesheet" href="css/vanilla/style.css">
+    <style>
+        /* Estilo adicional para manejar el desbordamiento */
+        .overflow-auto {
+            overflow: auto;
+        }
+
+        .overflow-hidden {
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Resto de tu contenido aquí -->
+
+        <!-- Ejemplo de uso de la clase overflow-auto para permitir desplazamiento -->
+        <div id="contenido-aside" class="col-md-4 overflow-auto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis labore necessitatibus quod voluptatem ipsam, suscipit fugiat molestias vero veniam velit omnis quasi numquam a laudantium. Aspernatur velit nisi dolorem beatae.</p>
+        </div>
+
+        <!-- Ejemplo de uso de la clase overflow-hidden para recortar el contenido -->
+        <div id="info-cajas" class="row overflow-hidden">
+            <!-- Tu contenido aquí -->
+        </div>
+    </div>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
